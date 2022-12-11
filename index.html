@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton/css/skeleton.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Donation Form</h1>
+            <p>Make an online donation to help our organization provide treatment, care and support to vulnerable children. Fill out the form below to send your donation. Thank you for your help!</p>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <label for="full-name">Name</label>
+                <input type="text" id="f-name" for="f-name" placeholder="First Name">
+                <input type="text" id="l-name" for="l-name" placeholder="Last Name">
+                <label for="address">Address</label>
+                <input type="text" name="street" id="street" placeholder="Street">
+                <input type="text" name="city" id="city" placeholder="City">
+                <br>
+                <input type="text" name="region" id="region" placeholder="Region">
+                <input type="text" name="country" id="country" placeholder="Country">
+                
+                <label for="emailandnumber">Email & Number</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+                <label for="donation">Donation Amount</label>
+                <input type="number" name="donation" id="donation" placeholder="$">
+                <br>
+                <input type="submit" value="Donate" id="donation-btn">
+            </form>
+            <div class="output-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Full Name</td>
+                            <td>Address</td>
+                            <td>Email</td>
+                            <td>Number</td>
+                            <td>Donation</td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
